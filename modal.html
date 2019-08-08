@@ -1,0 +1,103 @@
+
+
+<!-- Modal -->
+<div id="popup1" class="modal product-popup fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+      	<button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="row">
+			<div class="col-md-5 single-top-left">	
+				<div class="flexslider">
+					  <ul class="slides">
+						<li data-thumb="images/p-1.png">
+							<div class="thumb-image"> <img data-src="images/s-1.jpg" class="img-responsive loadImage" alt=""/> </div>
+						</li>
+						<li data-thumb="images/p-2.png">
+							 <div class="thumb-image"> <img data-src="images/s-2.jpg" class="img-responsive loadImage" alt=""/> </div>
+						</li>
+						<li data-thumb="images/p-3.png">
+						   <div class="thumb-image"> <img data-src="images/s-3.jpg" class="img-responsive loadImage" alt=""/> </div>
+						</li> 
+					  </ul>
+				</div>
+				<!-- FlexSlider -->
+				<script src="js/imagezoom.js"></script>
+				<script defer src="js/jquery.flexslider.js"></script>
+				<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+				<script>
+				// Can also be used with $(document).ready()
+				$(window).load(function() {
+				  $('.flexslider').flexslider({
+					animation: "slide",
+					controlNav: "thumbnails"
+				  });
+				});
+				</script>
+			</div>	
+			<div class="col-md-7 single-top-right">
+				<div class="single-para simpleCart_shelfItem">
+				<h2>Jasmin Noir</h2>
+					<div class="star-on">
+						<ul class="star-footer">
+								<li><a href="#"><i> </i></a></li>
+								<li><a href="#"><i> </i></a></li>
+								<li><a href="#"><i> </i></a></li>
+								<li><a href="#"><i> </i></a></li>
+								<li><a href="#"><i> </i></a></li>
+							</ul>
+						<div class="review">
+							<a href="#"> 1 customer review </a>
+							
+						</div>
+					<div class="clearfix"> </div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+					<h5 class="item_price">$ 95.00</h5>
+					<div class="available">
+						<form class="form-inline">
+							<div class="group-form formLine">
+								<label for="text">Quantity</label>
+								<input type="text" name="" value="0" placeholder="">
+							</div>
+							<div class="group-form formLine">
+								<label for="text">Size</label>
+								<select>
+									<option>Large</option>
+									<option>Medium</option>
+									<option>small</option>
+									<option>Large</option>
+									<option>small</option>
+								</select>
+							</div>
+						</form>
+					</div>
+					<ul class="tag-men">
+						<li>
+							<div class="tagDes">TAG</div>
+							<div>: Ambergris, Iris, Lemon Verbena, Sandalwood, Violet Leaves</div>
+						</li>
+						<li>
+							<div class="tagDes">SKU</div>
+							<div>: N/A</div>
+						</li>
+						<div class="clearfix"></div>
+						<li>
+							<div class="tagDes">Brand</div>
+							<div>: <a href="#">Vilhelm Parfumerie</a></div>
+						</li>
+					</ul>
+					<a href="#" class="add-cart item_add">ADD TO CART</a>
+					<a href="#" class="add-cart">Added in Wishlist</a>
+					
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+      </div>
+    </div>
+
+  </div>
+</div>	
